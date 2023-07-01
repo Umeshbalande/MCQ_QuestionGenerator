@@ -1,0 +1,33 @@
+Sure, let's break down the code.
+
+1. **Importing Required Modules:**
+   The script begins with importing all the necessary modules. openai is required to communicate with the OpenAI's GPT-3 model. json is used to manipulate JSON data. time and traceback are used for error handling and debugging. csv and pandas are used for creating and manipulating CSV files. ast and seq from functional are used for advanced data manipulations.
+
+2. **Class Declaration - QuestionGenerator:**
+   The class 'QuestionGenerator' is defined to encapsulate all the functionalities related to generating and handling questions.
+
+3. **Initialization (__init__):**
+   In the initialization function, the OpenAI's API key is set and a predefined prompt is generated using a method called generate_prompt(). 
+
+4. **Method - convert_keys_to_lowercase:**
+   This function is used to convert all the keys in a given dictionary to lowercase.
+
+5. **Method - get_completion:**
+   This function is used to get a response from the OpenAI's GPT-3 model based on the input prompt. The function creates a series of messages including a system message and a user message, and sends them to the OpenAI's chat model for generating a response. The response from the model is then returned.
+
+6. **Method - generate_prompt:**
+   This function generates a predefined prompt which is used as an input for the GPT-3 model to generate questions. The prompt includes detailed instructions on the type of questions to be generated.
+
+7. **Method - create_questions:**
+   This function uses the get_completion method to generate a series of questions based on the input prompt. The number of questions to be generated is given as a parameter (repeat). The generated questions are then returned in a list.
+
+8. **Method - create_csv:**
+   This function takes the list of generated questions and writes them into a CSV file. Before writing into the CSV file, the keys in the dictionary are converted to lowercase. The function also ensures that no duplicate questions are written into the CSV file.
+
+9. **Method - generate_filename:**
+   This function generates a filename for the CSV file.
+
+10. **Main function:**
+   In the main function, an instance of the QuestionGenerator class is created using the OpenAI's API key. The instance is then used to create a specified number of questions and write them into a CSV file.
+
+The main aspects of this code include communication with OpenAI's GPT-3 model for text generation, handling and manipulation of JSON data, and writing data into a CSV file.
