@@ -1,4 +1,4 @@
-# MCQ_QuestionGenerator using Open AI API (gpt 3.5-turbo-16k or gpt-4)
+# MCQ Question Generator using Open AI API (gpt 3.5-turbo-16k or gpt-4)
 
 Sure, here is a README file that you can use to upload your code to GitHub:
 
