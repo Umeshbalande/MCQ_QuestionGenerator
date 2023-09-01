@@ -118,7 +118,7 @@ class QuestionGenerator:
         return filename
 
     def generate_filename(self):
-        filename = r'F:\Company_Data\Script_python\output_csv\questions.csv'
+        filename = r'questions.csv'
         return filename
 
 
