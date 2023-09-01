@@ -13,31 +13,13 @@ To use the script, first install the OpenAI API:
 
 
 pip install openai
-```
-
-Then, clone this repository:
-
-```
-git clone https://github.com/[your-username]/multiple-choice-question-generator.git
-```
-
-Change into the directory of the cloned repository:
-
-```
-cd multiple-choice-question-generator
-```
-
-Run the script with the following command:
-
-```
-python question_generator.py
 
 
 The script will prompt you for the following information:
 
 * The topic of the questions
 * The number of questions to generate
-* The difficulty level of the questions
+* The difficulty level of the questions 
 
 Once you have provided this information, the script will generate the questions and save them to a CSV file.
 
@@ -46,7 +28,7 @@ Once you have provided this information, the script will generate the questions 
 The following is an example of how to generate 10 multiple choice questions on the topic of "Science" with a difficulty level of "Hard":
 
 
-python question_generator.py
+python questions.py
 
 Topic: Science
 Number of questions: 10
