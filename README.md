@@ -120,7 +120,7 @@ The questions are generated in a JSON format, which can be easily imported into 
 
 ## Contact
 
-If you have any questions or feedback, please contact me at [your email address].
+If you have any questions or feedback
 
 
 
