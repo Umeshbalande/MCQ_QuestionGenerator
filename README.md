@@ -1,10 +1,5 @@
 # MCQ Question Generator using Open AI API (gpt 3.5-turbo-16k or gpt-4)
 
-Sure, here is a README file that you can use to upload your code to GitHub:
-
-
-# Multiple Choice Question Generator
-
 This repository contains a Python script that generates multiple choice questions. The script uses the OpenAI API to generate the questions, and it can be used to generate questions on any topic.
 
 ## Getting Started
