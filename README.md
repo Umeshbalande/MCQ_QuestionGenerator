@@ -35,7 +35,7 @@ Number of questions: 10
 Difficulty level: Hard
 ```
 
-The script will generate the following 10 questions:
+The script will generate the following 10 questions as follows
 
 ```
 1. What is the scientific name for the Earth?
